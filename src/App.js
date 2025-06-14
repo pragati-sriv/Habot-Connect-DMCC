@@ -32,10 +32,10 @@ const Home = () => {
   const prev = () => setStep(prev => prev - 1);
 
   const handleSubmit = () => {
-    console.log('Submitted Profile:', formData);
-    alert('Profile saved successfully!');
+    console.log('✅ Submitted Profile:', formData);
+    alert('🎉 Profile saved successfully!');
   };
-
+  
   return (
     <main className="flex-grow-1 bg-light">
       <div className="container py-5">
